@@ -1,0 +1,385 @@
+select {
+	height: 22px;
+}
+
+a {
+	text-decoration: none;
+	color: purple;
+}
+.login {
+	width: 25%;
+}
+
+.bottom{
+	position: absolute;
+	bottom:0;
+	left: 0;
+}
+
+.logout {
+	position: absolute;;
+	top:10px;
+	right:10px;
+}
+
+.up-directory {
+	position: absolute;;
+	top:10px;
+	left:12%;
+}
+
+.form-label {
+	text-align: right;
+}
+
+.form-text{
+	text-transform: capitalize;;
+}
+
+.column-center {
+	border-left: 1px solid #EEE;
+	/*border-right: 1px solid #EEE;*/
+}
+
+.column-right {
+	border-left: 1px solid #EEE;
+	/*border-right: 1px solid #EEE;*/
+}
+
+.general_padding {
+	padding: 0 5px;
+}
+
+#ajax_msg{
+	height: auto;
+}
+
+.suc_msg {
+	padding: 3px 5px;
+	/*height: 30px;*/
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: #00B233;
+	background-color: rgba(0,255,72,.3);
+	color: #00B233;
+}
+
+.err_msg {
+	padding: 3px 5px;
+	/*height: 30px;*/
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: #B20000;
+	background-color: rgba(255,25,25,.3);
+	color: #B20000;
+}
+
+/*Table styling/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.invoice_table tr:nth-child(2n+0){
+	background-color: rgba(31,141,214,0.1);
+}
+
+.invoice_table tr{
+	height: 30px;
+	font-size: 14px;
+}
+
+.invoice_table button{
+	height: 20px;
+	font-size: 11px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/*Open Invoice Table styling/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.openInvoice-list tr{
+	font-size: 13px;
+}
+
+table.entity_list_table {
+	border-collapse:collapse;
+}
+
+table.openInvoice-list th, table.openInvoice-list td {
+	padding: 2px 15px 2px 15px;
+	text-align: center;
+}
+
+table.openInvoice-list thead th {
+	background-color:rgb(249,249,249);
+}
+
+table.openInvoice-list tfoot td {
+	background-color:#ffccff;
+}
+
+table.openInvoice-list tbody tr{	
+	border:1px solid rgba(0,0,0,.2);
+	border-right-style: none;
+	border-left-style: none;
+}
+
+table.openInvoice-list tr.tbody_header {
+	font-weight:bold;
+	text-align:center;
+	background-color:#dddddd;
+}
+
+table.openInvoice-list a.pagelink {
+	padding-left:5px;
+	padding-right:5px;
+	border:1px solid #666666;
+	margin:0px 5px 0px 5px;
+}
+
+/*// Invoice Number */
+.openInvoice-list th:first-child{
+	width:80px;
+}
+
+/*// Date */
+.openInvoice-list th:nth-child(2){
+	width:100px;
+}
+
+/*// Days Aging */
+.openInvoice-list th:nth-child(3){
+	width:110px;
+}
+
+/*// Customer */
+.openInvoice-list th:nth-child(4){
+	width:190px;
+}
+
+/*// Invoice Total */
+.openInvoice-list th:nth-child(5){
+	width:120px;
+}
+
+/*// Amount Paid */
+.openInvoice-list th:nth-child(6){
+	width:120px;
+}
+
+/*// Open Balance */
+.openInvoice-list th:nth-child(7){
+	width:120px;
+}
+
+/*Form Styling ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.rate {
+	width: 100%;
+}
+
+.qty {
+	width:100%;
+}
+
+.total {
+	width: 100%;
+}
+
+
+/* CSS for Journal Entrees */
+
+.remove-btn {
+	
+	background:#CA5454;
+	color:white;
+}
+
+.je .top, .je .bottom {
+	
+background:#191818;
+	
+}
+.je tr:nth-child(even) {
+	background: #f2f2f2
+}
+
+.je tr:nth-child(odd) {
+	background: #FFF
+}
+
+
+/* toggles row when input is in focus */
+
+.je tr.active {
+	background: #C6EBF7
+}
+
+.je tr.button-row, .je tr.button-row button {
+	background: #1f8dd6;
+	color:white;
+	font-size:105%;
+}
+
+.je .button-td {
+	text-align: center;
+	border: solid;
+	border-width: 1px;
+	border-color: gray;
+}
+
+.je table thead {
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #909090;
+}
+
+
+/* ----- | padding | ----- */
+
+.section-01 {
+ 	padding-left: 85px; 
+	padding-right: 85px;
+	padding-bottom: 15px;
+	
+}
+
+.section-02 {
+	padding-top: 15px;
+ 	/*padding-left: 85px; */
+	padding-right: 85px;
+	padding-bottom: 15px;
+	border: solid;
+	border-top-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-color: gray;
+	
+}
+
+.section-03 {
+	padding-top: 25px;
+ 	padding-left: 11%; 
+	padding-right: 85px;
+	padding-bottom: 15px;
+	border: solid;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-color: gray;
+}
+
+.section-04 {
+	padding-top: 25px;
+ 	padding-left: 85px; 
+	padding-right: 85px;
+	padding-bottom: 15px;
+	border: solid;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-color: gray;
+}
+
+
+/* ----- | Global Settings | ----- */
+
+
+/*GLOBAL alignments */
+
+.text-center {
+	text-align: center;
+}
+
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+
+/* GLOBAL pure btn custom */
+
+.pure-button {
+	border: solid;
+	border-color: gray;
+	border-width: 1px;
+	border-radius:3px;
+}
+
+.button-xsmall {
+	font-size: 70%;
+}
+
+.button-small {
+	font-size: 85%;
+}
+
+.button-large {
+	font-size: 110%;
+}
+
+.button-xlarge {
+	font-size: 125%;
+	font-weight:bold;
+}
+
+.new-row-btn,.new-row-btn:hover {
+	width:900px;
+	border:none;
+	background:none;
+	font-weight:bold;
+}
+
+
+
+input {
+	color: #4F4F4F;
+	text-align: left;
+}
+
+
+/* ----- | Global Settings End | ----- */
+
+.cur_span{
+  position:absolute;
+}
+
+/* .currency {
+  padding-left:12px;
+}
+
+.currency-symbol {
+  position:absolute;
+  padding: 1px 5px;
+} */
+
+.balance-success {
+	background:#53D489 !important;
+}
+.balance-warning {
+	background:#D4C953 !important;
+}
+.balance-danger {
+	background:#D45353 !important;
+}
+
+.alert-warning {
+	color:#D45353;
+	font-weight: bolder;
+}
+.alert-success {
+	color:green;
+	font-weight: bolder;
+}
+
+
